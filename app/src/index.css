@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+html, body, #root { height: 100%; }
+
+body { @apply bg-paper text-ink font-body; }
+
+.card { @apply bg-white/70 backdrop-blur rounded-lgx shadow-soft p-4; }
+.btn { @apply inline-flex items-center justify-center rounded-mdx px-4 py-2 transition-all duration-micro ease-soft; }
+.btn-primary { @apply bg-wine text-white hover:bg-wine/90; }
+.btn-ghost { @apply text-wine hover:bg-wine/10; }
