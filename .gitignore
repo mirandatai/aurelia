@@ -1,0 +1,14 @@
+# Node/JS
+node_modules
+dist
+build
+*.log
+
+# Env
+.env
+.env.local
+!.env.example
+.env.*
+
+# OS
+.DS_Store
